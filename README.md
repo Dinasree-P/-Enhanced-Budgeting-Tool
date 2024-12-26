@@ -69,13 +69,14 @@ Example Data
 The tool requires a dataset containing at least 24 months of expenses for accurate seasonal forecasting. Here's a sample dataset for reference:
 
 csv formate
-Copy code
+
 Date,Description,Category,Amount
 2022-01-01,Groceries,Food,200
 2022-01-15,Rent,Housing,1200
 2022-02-01,Electricity Bill,Utilities,150
-...
+
 Troubleshooting
+
 Error: "Cannot compute initial seasonals using heuristic method":
 Ensure your dataset contains at least 24 months of historical data before attempting seasonal forecasting. The Exponential Smoothing model requires two full seasonal cycles to detect seasonality.
 User login not working:
